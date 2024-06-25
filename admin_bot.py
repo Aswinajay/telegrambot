@@ -8,7 +8,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Telegram bot token for admin bot - Replace 'YOUR_ACTUAL_ADMIN_BOT_TOKEN' with your real admin bot token obtained from BotFather
-ADMIN_BOT_TOKEN = os.getenv('ADMIN_BOT_TOKEN', 'YOUR_ACTUAL_ADMIN_BOT_TOKEN')
+ADMIN_BOT_TOKEN = os.getenv('6833258941:AAGuDvDQBYq5nrQAKINECq4sA89bJUFGleI', '6833258941:AAGuDvDQBYq5nrQAKINECq4sA89bJUFGleI')
 
 def list_users(update: Update, context: CallbackContext):
     """List all registered users."""
