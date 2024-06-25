@@ -8,7 +8,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Telegram bot token for user bot - Replace 'YOUR_ACTUAL_USER_BOT_TOKEN' with your real user bot token obtained from BotFather
-USER_BOT_TOKEN = os.getenv('USER_BOT_TOKEN', 'YOUR_ACTUAL_USER_BOT_TOKEN')
+USER_BOT_TOKEN = os.getenv('7425585247:AAE_AKvaAwrwDoqNB5bscVRL6uPZlTFLlg0', '7425585247:AAE_AKvaAwrwDoqNB5bscVRL6uPZlTFLlg0')
 
 def start(update: Update, context: CallbackContext):
     """Send a message when the command /start is issued."""
